@@ -1,4 +1,4 @@
-#! /usr/bin/bash
+#!/usr/bin/bash
 
 #update ubuntu and install virtualenv for new users
 sudo apt update
