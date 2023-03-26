@@ -1,6 +1,6 @@
 #!/usr/bin/bash
 cd ..
-
+exec bash
 #update ubuntu and install virtualenv for new users
 sudo apt update
 sudo apt install -y python3-virtualenv
