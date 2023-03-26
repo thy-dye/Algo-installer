@@ -1,5 +1,6 @@
 # AlgoVPN Installer for Windows Only
 * Installation for Algo VPN and its dependencies
+* Under the Assumption you have Windows Subsystem for Linux running (WSL) and are using Ubuntu
 * Go to your Ubuntu Terminal and install using
   ```bash
         git clone https://github.com/thy-dye/Algo-installer.git && sudo chmod +x Algo-installer/algoinstaller && cd Algo-installer
