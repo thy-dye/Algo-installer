@@ -1,4 +1,5 @@
 #!/usr/bin/bash
+cd ..
 
 #update ubuntu and install virtualenv for new users
 sudo apt update
@@ -16,7 +17,7 @@ python3 -m virtualenv --python="$(command -v python3)" .env &&
 
 #information letting user know it is done
 echo
-echo  *algo installation complete*
+echo  "*algo installation complete*"
 echo
 
 exec bash
